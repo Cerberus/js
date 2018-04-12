@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "jest-cli": "*",
+    "babel": "^4.3.0"
+  }
+}
