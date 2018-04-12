@@ -1,3 +1,5 @@
-export const myFun = x => {
-	return x * x
+export const myFun = x => x*x
+
+export const tError = () => {
+	throw new Error('test')
 }

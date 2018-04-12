@@ -1,6 +1,7 @@
 {
   "devDependencies": {
-    "jest-cli": "*",
-    "babel": "^4.3.0"
+    "babel": "^4.3.0",
+    "jest": "22.4.3",
+    "jest-cli": "*"
   }
 }
