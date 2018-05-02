@@ -3,5 +3,10 @@
     "babel": "^4.3.0",
     "jest": "22.4.3",
     "jest-cli": "*"
+  },
+  "dependencies": {
+    "chromeless": "^1.5.1",
+    "immutable": "^3.8.2",
+    "moment": "^2.22.1"
   }
 }
