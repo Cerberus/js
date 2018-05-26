@@ -6,7 +6,9 @@
   },
   "dependencies": {
     "chromeless": "^1.5.1",
+    "flow-bin": "^0.73.0",
     "immutable": "^3.8.2",
+    "lodash.merge": "^4.6.1",
     "moment": "^2.22.1"
   }
 }

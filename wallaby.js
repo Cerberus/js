@@ -1,7 +1,7 @@
 module.exports = function(wallaby) {
 	return {
 		files: ['index.js'],
-		tests: ['__test__/*.js'],
+		tests: ['__test__/*.js?(x)'],
 		env: {
 			type: 'node',
 			params: { node: '--harmony' },
