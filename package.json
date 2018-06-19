@@ -1,14 +1,19 @@
 {
-  "devDependencies": {
-    "babel": "^4.3.0",
-    "jest": "22.4.3",
-    "jest-cli": "*"
-  },
-  "dependencies": {
-    "chromeless": "^1.5.1",
-    "flow-bin": "^0.73.0",
-    "immutable": "^3.8.2",
-    "lodash.merge": "^4.6.1",
-    "moment": "^2.22.1"
-  }
+	"devDependencies": {
+		"babel": "^4.3.0",
+		"babel-cli": "^6.26.0",
+		"babel-preset-env": "^1.7.0",
+		"babel-preset-flow": "^6.23.0",
+		"babel-preset-react": "^6.24.1",
+		"jest": "^23.1.0",
+		"jest-cli": "*"
+	},
+	"dependencies": {
+		"chromeless": "^1.5.1",
+		"flow-bin": "^0.73.0",
+		"immutable": "^3.8.2",
+		"lodash.merge": "^4.6.1",
+		"moment": "^2.22.1",
+		"qs": "^6.5.2"
+	}
 }

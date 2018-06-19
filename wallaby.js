@@ -4,11 +4,11 @@ module.exports = function(wallaby) {
 		tests: ['__test__/*.js?(x)'],
 		env: {
 			type: 'node',
+			jest: true,
 			params: { node: '--harmony' },
 		},
-		preprocessors: {
-			'**/*.js': file =>
-				require('babel').transform(file.content, { sourceMap: true }),
+		compilers: {
+			'**/*.js': wallaby.compilers.babel(),
 		},
 		testFramework: 'jest',
 	}

@@ -7,6 +7,10 @@
 // 	})
 // 	it('map', () => {
 // 		const map = new Map({ key: 'test' })
-// 		map.update('key', () => 'test2').toJS() // ?
+// 		const map2 = map.update('key2', () => true)
+// 		const map3 = map.update('key2', (test) => {
+// 			return test
+// 		})
+// 		map3 // ?
 // 	})
 // })
