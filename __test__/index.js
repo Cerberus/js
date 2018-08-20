@@ -1,17 +1,15 @@
 // @flow
 
-const fn = ({ k1 = 'd1', k2 = 'd2' }: any = {}) => ({ k1, k2 })
+const sum = (x, y) => x.toString() + y.toString()
 
-const obj = {
-	a: true,
-	b: true,
-}
+const addTwo = sum.bind(null, 2)
+
+const plusTwo = x => sum(x, 2)
 
 describe('general', () => {
-	it('default fn', () => {
-		fn() // ?
-		fn({}) // ?
-		fn({ k1: 'v1' }) // ?
-		Object.keys(obj)	// ?
+	it('basic', () => {
+		addTwo(3) // ?
+		plusTwo(4) // ?
+		'ab'.replace(/[ab]/, '') // ?
 	})
 })

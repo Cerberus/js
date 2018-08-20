@@ -10,4 +10,8 @@
 // 			arrayFormat: 'repeat',
 // 		}) // ?
 // 	})
+// 	it('parse', () => {
+// 		const url = 'promotions?regionId=1'.split('?')[1]
+// 		qs.parse(url) // ?
+// 	})
 // })
