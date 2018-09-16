@@ -1,16 +1,16 @@
-// @flow
-
-const hanlder = {
-	get: (obj, key) => {
-		obj // ?
-		return 0
-	}
-}
-
-const p = new Proxy({}, hanlder)
-
-describe('proxy', () => {
-	it('basic', () => {
-		p['1'] // ?
-	})
-})
+// // @flow
+//
+// const handler = {
+// 	get: (obj, key) => {
+// 		key // ?
+// 		return obj[key]
+// 	}
+// }
+//
+// const p = new Proxy({ a: { b: 3 }}, handler)
+//
+// describe('proxy', () => {
+// 	it('basic', () => {
+// 		p.a.b // ?
+// 	})
+// })
