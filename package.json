@@ -1,4 +1,7 @@
 {
+	"scripts": {
+		"flow": "flow"
+	},
 	"dependencies": {
 		"chromeless": "^1.5.1",
 		"immutable": "^3.8.2",
@@ -8,11 +11,13 @@
 		"qs": "^6.5.2"
 	},
 	"devDependencies": {
-		"babel": "^4.3.0",
-		"babel-cli": "^6.26.0",
-		"babel-preset-env": "^1.7.0",
-		"babel-preset-flow": "^6.23.0",
-		"babel-preset-react": "^6.24.1",
+		"@babel/cli": "^7.0.0",
+		"@babel/core": "^7.0.0",
+		"@babel/preset-env": "^7.0.0",
+		"@babel/preset-flow": "^7.0.0",
+		"@babel/preset-react": "^7.0.0",
+		"babel-core": "^7.0.0-bridge.0",
+		"babel-plugin-transform-class-properties": "^6.24.1",
 		"flow-bin": "^0.80.0",
 		"jest": "^23.1.0",
 		"jest-cli": "*"

@@ -1,6 +1,7 @@
 // // @flow
 //
 // class Test {
+// 	store: {| me: string |}
 // 	init(store) {
 // 		this.store = store
 // 	}
