@@ -6,6 +6,7 @@
 		"chromeless": "^1.5.1",
 		"immutable": "^3.8.2",
 		"lodash.merge": "^4.6.1",
+		"memoizee": "^0.4.14",
 		"moment": "^2.22.1",
 		"prettier": "^1.14.2",
 		"qs": "^6.5.2"

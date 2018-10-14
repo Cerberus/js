@@ -3,7 +3,8 @@
 // }
 //
 // describe('async', () => {
-// 	it('test', () => {
-// 		Promise.resolve(fn1()) // ?
-// 	})
+// it('basic', async () => {
+// 	const result = await Promise.resolve(123)
+// 	result
+// })
 // })

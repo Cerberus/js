@@ -1,20 +1,7 @@
 // @flow
 
-type P = {
-	text: string,
-}
+describe('index', () => {
+	it('general tests', () => {
 
-type F = {
-	text: Function,
-}
-
-const test = <T>(p: T): T => p
-
-const obj = {}
-
-describe('general', () => {
-	it('index', () => {
-		const p: P = { text: 'test' }
-		const f = test(2)
 	})
 })
