@@ -1,6 +1,6 @@
 module.exports = function(wallaby) {
 	return {
-		files: ['libs/*.js'],
+		files: ['files/*.js'],
 		tests: ['__test__/*.js?(x)'],
 		env: {
 			type: 'node',

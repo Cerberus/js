@@ -15,9 +15,8 @@ describe('immutable', () => {
 			List(item) // ?
 		}
 	})
-	it('map', () => {
-		const map = Map({ key: Map({ a: 123 }) })
-	})
+
+	it('map', () => {})
 
 	it('formJS', () => {
 		const foo = fromJS({ params: JSON.stringify({ regionId: 1 }), test: [] }) // ?

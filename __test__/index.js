@@ -1,7 +1,7 @@
 // @flow
 
-describe('index', () => {
-	it('general tests', () => {
+describe.only('index', () => {
+	it('general', () => {
 
 	})
 })
