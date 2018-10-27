@@ -1,7 +1,11 @@
 {
+	"name": "js",
+	"description": "Javascript playground with wallaby.js",
+	"version": "1.0.0",
 	"scripts": {
 		"flow": "flow"
 	},
+	"license": "MIT",
 	"dependencies": {
 		"immutable": "^3.8.2",
 		"lodash.merge": "^4.6.1",
