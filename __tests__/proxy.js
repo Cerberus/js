@@ -1,17 +1,26 @@
 // @flow
 
-const handler = {
-	get: (obj, key) => {
-		if (typeof obj[key] === 'object')
-			return new Proxy(obj[key], handler)
+const obj = { value: 124 }
+const handlerObj = {
+	get(obj, key) {
 		return obj[key]
-	}
+	},
 }
+const token = new Proxy(obj, handlerObj)
 
-const p = new Proxy({ a: { b: 3 }}, handler)
+const sum = (x: number, y: number) => x + y
+const handlerFn = {
+	apply(target, thisArg, argumentsList) {
+		return target(...argumentsList)
+	},
+}
+const fn = new Proxy(sum, handlerFn)
 
 describe('proxy', () => {
-	it('basic', () => {
-		p.a.b // ?
+	it('constructor', () => {
+		token
+	})
+	it('apply', () => {
+		fn(1, 2)
 	})
 })
