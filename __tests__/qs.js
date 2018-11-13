@@ -11,7 +11,7 @@ describe('qs', () => {
 		}) // ?
 	})
 	it('parse', () => {
-		const url = "?test=true"
-		qs.parse(url, { ignoreQueryPrefix: true }).test // ?
+		const url = "romotions?regionId=9681".split('?')[1]
+		qs.parse(url, { ignoreQueryPrefix: true }) // ?
 	})
 })
