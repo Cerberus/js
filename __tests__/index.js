@@ -1,6 +1,6 @@
 // @flow
 
-describe.only('general', () => {
+describe('general', () => {
 	it('simple', () => {
 
 	})
