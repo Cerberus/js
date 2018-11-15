@@ -4,6 +4,7 @@ import Dataloader from 'dataloader'
 
 const f = async (nums: number) => {
 	console.log(nums)
+	await new Promise(res => setTimeout(res))
 	return nums
 }
 
