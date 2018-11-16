@@ -20,7 +20,6 @@ describe('immutable', () => {
 
 	it('formJS', () => {
 		const foo = fromJS({ params: JSON.stringify({ regionId: 1 }), test: [] }) // ?
-		Map().get('123', 123) // ?
 		foo.get('test') // ?
 	})
 	it('record', () => {
