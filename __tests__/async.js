@@ -14,4 +14,19 @@ describe('async', () => {
 		const result = await Promise.all(SECS.map(f))
 		expect(result).toEqual(SECS)
 	})
+
+	const w = {
+		FB: false,
+	}
+
+	let ready
+
+	const Facebook = new Promise(res => (ready = res))
+
+	it('async queue', () => {
+		Facebook.then(FB => {
+			FB
+		})
+		ready(w.FB)
+	})
 })

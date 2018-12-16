@@ -4,7 +4,7 @@ const isEmail = email => {
 	)
 }
 
-describe('regex', () => {
+describe.only('regex', () => {
 	it('basic', () => {
 		isEmail('sdfds') // ?
 	})
